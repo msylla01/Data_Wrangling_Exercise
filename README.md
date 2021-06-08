@@ -9,8 +9,7 @@
 In this project all the script is wrtiten in python, so you must have python installed in your system.
 If you dont have Python you can install here [python](https://www.python.org/downloads/)
 
-
-### 1- Clone the project :
+1- **Clone the project :**
     ```sh
     git clone https://github.com/msylla01/Data_wrangling_exercise.git
     
