@@ -11,10 +11,10 @@ If you dont have Python you can install here [python](https://www.python.org/dow
 
 ### 1- Clone the project :
 
-    ```sh
-    git clone https://github.com/msylla01/Data_wrangling_exercise.git
     
-    ```
+    $ git clone https://github.com/msylla01/Data_wrangling_exercise.git
+    
+   
 
 ### 2-  Dependencies
     ```sh
