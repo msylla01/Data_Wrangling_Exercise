@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "daily_prices",
-      "path": "https://github.com/msylla01/Data_wrangling_exercise/blob/main/gas_prices/data/daily_gas_prices.csv",
+      "path": "https://github.com/msylla01/Data_Wrangling_Exercise/blob/main/gas_prices/data/daily_gas_prices.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -27,7 +27,7 @@
     },
     {
       "name": "monthly_gas_prices",
-      "path": "https://github.com/msylla01/Data_wrangling_exercise/blob/main/gas_prices/data/monthly_gas_prices.csv",
+      "path": "https://github.com/msylla01/Data_Wrangling_Exercise/blob/main/gas_prices/data/monthly_gas_prices.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -60,5 +60,11 @@
     }
   ],
   "description": "Extract data of natural gas prices in Daily and monthly.",
-  "homepage": "https://github.com/msylla01/Data_wrangling_exercise/tree/main/gas_prices"
+  "homepage": "https://github.com/msylla01/Data_wrangling_exercise/tree/main/gas_prices",
+  "licenses": [
+    {
+      "path": "https://github.com/msylla01/Data_Wrangling_Exercise/blob/main/LICENSE",
+      "title": "MIT"
+    }
+  ]
 }

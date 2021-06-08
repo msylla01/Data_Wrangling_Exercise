@@ -2,7 +2,7 @@
 All the data Daily Prices 'Henry Hub Natural Gas Spot Price (Dollars per Million Btu)'
 
 The script have two function  that calls the EIA API and 
-put the data in to the CSV file located in Data_wrangling_exercise/gas_prices/data/daily_gas_prices.csv 
+put the data in to the CSV file located in Data_Wrangling_Exercise/gas_prices/data/daily_gas_prices.csv 
 
 """
 
