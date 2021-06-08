@@ -1,0 +1,64 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "daily_prices",
+      "path": "https://github.com/msylla01/Data_wrangling_exercise/blob/main/gas_prices/data/daily_gas_prices.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date",
+            "format": "yyyymmdd",
+            "title": "Daily Date"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "default",
+            "title": "Daily Price"
+          }
+        ]
+      },
+      "format": "csv",
+      "title": "daily_gas_price",
+      "description": "Daily  Henry Hub Natural Gas Spot Price (Dollars per Million Btu).\nWe have two columns for Date and Prices, the format for Date is in 'yyyymmdd' and the Prices is a number (float)."
+    },
+    {
+      "name": "monthly_gas_prices",
+      "path": "https://github.com/msylla01/Data_wrangling_exercise/blob/main/gas_prices/data/monthly_gas_prices.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date",
+            "format": "yyyymm",
+            "title": "Monthly Date"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "default",
+            "title": "Monthly Price"
+          }
+        ]
+      },
+      "title": "monthly_gas_price",
+      "format": "csv",
+      "description": "Daily  Henry Hub Natural Gas Spot Price (Dollars per Million Btu).\nWe have two columns for Date and Prices, the format for Date is in 'yyyymm' and the Prices is a number (float)."
+    }
+  ],
+  "name": "Henry_Hub_Natural_Gas_Spot_Price ",
+  "title": "Henry Hub Natural Gas  Spot Prices",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "title": "Mohamed Sylla",
+      "role": "author"
+    }
+  ],
+  "description": "Extract data of natural gas prices in Daily and monthly.",
+  "homepage": "https://github.com/msylla01/Data_wrangling_exercise/tree/main/gas_prices"
+}
