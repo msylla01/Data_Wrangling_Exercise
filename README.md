@@ -42,6 +42,8 @@ in the script the default duration type is daily
 ## Script
 You can find the script [here](https://github.com/msylla01/Data_Wrangling_Exercise/blob/main/gas_prices/script/get_prices_natural_gas.py)
 
+   $ python gas_price/script/get_prices_natural_gas.py
+
 In this script we have two functions, `get_list_of_data` and `csv_file`.<br>
 the first function calling **get_list_of_data**  this function take the `duration type` like 'daily' or 'monthly' and return the list, we have in this liste the date and their prices.
 The second function **csv_file** take also the `duration type`,  get the data list and stort it to the csv files in [data](gas_prices/data)
