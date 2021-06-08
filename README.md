@@ -17,10 +17,10 @@ If you dont have Python you can install here [python](https://www.python.org/dow
    
 
 ### 2-  Dependencies
-    ```sh
-    pip install -r requirements.txt
+   
+    $ pip install -r requirements.txt
     
-    ```
+   
     
 ### 3- Get EIA API key
 
@@ -32,11 +32,11 @@ You can download your key by registering [here](https://www.eia.gov/opendata/reg
 You can also get the json data by calling the API `https://api.eia.gov/series/?api_key=YOUR_API_KEY&series_id=NG.RNGWHHD.D`, This for the daily prices gas.
 in the script the default duration type is daily 
 
-     ```py
-    # function return the csv file
-    csv_file( duration_type="daily")
     
-     ```
+    # function return the csv file
+    $ csv_file( duration_type="daily")
+    
+
    You can change the duration type `daily` by `monthly` to get the csv file for monthly [monthly_price_gas](https://github.com/msylla01/Data_wrangling_exercise/blob/main/gas_prices/data/monthly_gas_prices.csv).
    
 ## Script
