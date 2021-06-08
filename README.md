@@ -35,6 +35,6 @@ in the script the default duration type is daily
     csv_file( duration_type="daily")
     
      ```
-   You change the duration type `daily` by `monthly` to get the csv file for monthly [monthly_price_gas](https://github.com/msylla01/Data_wrangling_exercise/blob/main/gas_prices/data/monthly_gas_prices.csv).
+   You can change the duration type `daily` by `monthly` to get the csv file for monthly [monthly_price_gas](https://github.com/msylla01/Data_wrangling_exercise/blob/main/gas_prices/data/monthly_gas_prices.csv).
    
 ## Script
